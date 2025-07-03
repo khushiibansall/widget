@@ -1,0 +1,7 @@
+<!-- <div class="dashboard-container">
+  <app-active-event-groups></app-active-event-groups>
+  <app-active-event-bar></app-active-event-bar>
+</div> -->
+<div class="dashboard-container">
+  <app-widget *ngFor="let config of widgets" [config]="config"></app-widget>
+</div>

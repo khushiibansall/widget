@@ -1,0 +1,11 @@
+#chartdiv {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
