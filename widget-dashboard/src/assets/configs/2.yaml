@@ -1,0 +1,12 @@
+id: 2
+type: bar
+title: Event Breakdown
+data:
+  - category: HDD Used
+    value: 10
+  - category: HDD Avail
+    value: 30
+  - category: SSD Used
+    value: 15
+  - category: SSD Avail
+    value: 25

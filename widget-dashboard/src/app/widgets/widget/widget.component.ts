@@ -1,3 +1,4 @@
+//widget.component.ts
 import { Component, AfterViewInit, Input, OnDestroy, NgZone } from '@angular/core';
 import * as am5 from '@amcharts/amcharts5';
 import * as am5xy from '@amcharts/amcharts5/xy';
@@ -36,6 +37,9 @@ ngAfterViewInit(): void {
       this.buildLineChart();
     }
   });
+  console.log('Rendering Widget:', this.config);
+console.log('Chart ID:', this.chartId);
+
 }
 
   private buildPieChart() {

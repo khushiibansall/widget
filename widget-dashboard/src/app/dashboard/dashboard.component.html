@@ -1,7 +1,6 @@
-<!-- <div class="dashboard-container">
-  <app-active-event-groups></app-active-event-groups>
-  <app-active-event-bar></app-active-event-bar>
-</div> -->
-<div class="dashboard-container">
-  <app-widget *ngFor="let config of widgets" [config]="config"></app-widget>
+<div class="dashboard-row">
+  <div class="widget-card" *ngFor="let widget of widgets()">
+    <!-- <h3>{{ widget.title }}</h3> -->
+    <app-widget [config]="widget"></app-widget>
+  </div>
 </div>

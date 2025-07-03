@@ -1,0 +1,10 @@
+id: 3
+type: line
+title: Events Over Time
+data:
+  - category: Jan
+    value: 5
+  - category: Feb
+    value: 8
+  - category: Mar
+    value: 12
